@@ -1,0 +1,12 @@
+name: Say Hi to GitHub Actions
+
+on:
+  push:
+    branches: ["**"]
+
+jobs:
+  Sayhello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print my initial excitment
+        run: echo "Hi Fellow engineers"
