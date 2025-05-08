@@ -3,6 +3,7 @@ name: Say Hi to GitHub Actions
 on:
   push:
     branches: ["**"]
+  workflow_dispatch:
 
 jobs:
   Sayhello:
