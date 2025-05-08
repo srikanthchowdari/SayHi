@@ -11,3 +11,12 @@ jobs:
     steps:
       - name: Print my initial excitment
         run: echo "Hi Fellow engineers"
+
+  Sayhellowithscript:
+    runs-on: ubuntu-latest
+    steps:
+      - name: with script
+      - uses: actions/github-script@v6
+        with:
+          script: console.log("Hello (from Javascript!)");
+  
